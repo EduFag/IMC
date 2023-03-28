@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    font-family: 'Rubik Mono One', sans-serif;
+    background-image: url(https://realidadesimulada.com/wp-content/uploads/2019/01/3esohhlzvykkz1xkbkq2ehhpa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box1 {
+    margin-left: 10%;
+    width: 25em;
+    height: 36em;
+    text-align: left;
+    margin-top: 7vh;
+    background-color: #ffffff7a;
+    border-radius: 20px;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+label {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+input {
+    font-size: 2em;
+    text-align: center;
+    width: 4em;
+    height: 2em;
+    margin-bottom: 1em;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+button {
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 0.5em;
+    border: none;
+    transition: 0.5s;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+button:hover {
+    background-color: #FAD961;
+}
+
+.direita {
+    margin-left: 40%;
+    margin-top: -33%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.direita > p {
+    margin-bottom: 2em;
+    color: #FAD961;
+}
+
+.center > img {
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
